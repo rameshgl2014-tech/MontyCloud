@@ -1,5 +1,5 @@
-from imageService.app.services.dynamo_service import list_images
-from imageService.app.utils.response import response
+from app.services.dynamo_service import list_images
+from app.utils.response import response
 
 
 def handler(event, context):
